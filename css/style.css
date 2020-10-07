@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    color:#707070;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2;
+}
+
+ul{
+    list-style: none;
+}
+
+.inner{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1{
+    text-align: center;
+}
+
+header ul{
+    display: flex;
+}
+
+header a{
+    padding-left: 40px;
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+}
+
+.column{
+    display: flex;
+}
