@@ -35,6 +35,7 @@ header ul{
 }
 
 header a{
+    color: #707070;
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
@@ -47,12 +48,85 @@ a:hover{
 
 .menu{
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .column{
     display: flex;
+    margin-bottom: 40px;
 }
 
 .maintext{
+    display: block;
+}
+
+.maintext h2{
+    padding-top: 50px;
+}
+
+.subscribe{
+    margin-top: 80px;
+    background-color: #FDF5ED;
+}
+
+.subscribe h2{
+    padding: 40px 0 30px;
+}
+
+.read{
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 18px 41px 18px;
+        display: inline-block;
+        background-color: #FFBF9D;
+        margin-top: 40px;
+        margin-bottom: 40px;
+}
+
+.sns{
+    border-top: 1px solid #707070;
+}
+
+.addtel{
     display: flex;
+}
+
+.address{
+    display: flex;
+}
+
+.email{
+    display: flex;
+}
+
+.addressbox{
+    color: #fff;
+    width: 100px;
+    padding-left: 27px;
+    background-color: #303030;
+    margin-right: 20px;
+}
+
+.telbox{
+    color: #fff;
+    width: 100px;
+    padding-left: 42px;
+    background-color: #303030;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.emailbox{
+    color: #fff;
+    width: 100px;
+    padding-left: 27px;
+    background-color: #303030;
+    margin-right: 20px;
+}
+
+footer p{
+    text-align: center;
+    margin: 48px 0 50px;
 }
