@@ -41,10 +41,18 @@ header a{
     text-decoration: none;
 }
 
+a:hover{
+    color: #FFBF9D;
+}
+
 .menu{
     text-align: center;
 }
 
 .column{
+    display: flex;
+}
+
+.maintext{
     display: flex;
 }
